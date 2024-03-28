@@ -1,0 +1,46 @@
+   .footercontainer{
+       width: 100%;
+       
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #00224f;
+
+   }
+
+   .inputfield{
+      padding: 9px 60px;
+      margin-right: 3px;
+   }
+
+   .inputpart{
+      margin-top: 5px;
+   }
+
+   .text1{
+      margin-top: 40px;
+      margin-left: 60px;
+      font-family: "Roboto", sans-serif;
+      font-size: 24px;
+      font-weight: 300;
+      color: white;
+   }
+   .text2{
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      color: rgb(196, 196, 196);
+      margin-bottom: 20px;
+      margin-left: 40px ;
+   }
+
+  
+
+   
+
+   .citiespart{
+      margin-top: 40px;
+      width: 100%;
+      background-color: white;
+   }

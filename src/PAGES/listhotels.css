@@ -1,0 +1,91 @@
+.listcontainer{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+.listwrapper{
+     display: flex;
+     gap: 20px;
+     width: 100%;
+     max-width: 1024px;
+}
+
+.searchlist{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: #ff9e00;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    height: fit-content;
+}
+.title{
+    font-size: 20px;
+    color: rgb(51, 42, 42);
+}
+.subtitle{
+    font-size: 15px;
+    color: rgb(51, 42, 42);
+}
+.inputtext{
+    padding: 9px 19px;
+}
+.optionscontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.optionlist{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25px;
+    gap: 20px;
+    margin-bottom: 9px;
+    width: 100%;
+    z-index: 2;
+   
+    
+}
+
+.optionlistadult{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25px;
+    gap: 35px;
+    margin-bottom: 9px;
+    width: 100%;
+    z-index: 2;
+   
+    
+}
+.emailbutton{
+    height: 40px;
+    width: 200px;
+}
+.calendar-container{
+   
+    z-index: 999;
+}
+.listtext{
+    font-size: 12px;
+    color: rgb(51, 42, 42);
+}
+
+.optioninput{
+    width: 8cqmax;
+    border: 1px solid #ccc; /* Add border styling */
+    border-radius: 5px;
+}
+
+.searchresultlist{
+    flex: 2;
+}
+

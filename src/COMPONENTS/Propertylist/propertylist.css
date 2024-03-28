@@ -1,0 +1,21 @@
+.propertylist{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .pitem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        overflow: hidden;
+        cursor: pointer;
+        .pitemimage{
+            border-radius: 10px;
+            object-fit: cover;
+        }      
+        
+    }
+}
