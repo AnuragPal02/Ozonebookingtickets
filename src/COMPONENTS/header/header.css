@@ -1,0 +1,31 @@
+.header{
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.headercontainer{
+   
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+    .headerlist{
+        display: flex;
+       
+        align-items: center;
+        gap: 40px;
+        .headerlistitem{
+           display: flex;
+           gap: 9px;
+        }
+
+        .headerlistitem.active{
+            border: 1px solid white;
+           padding: 10px;
+            border-radius: 20px;
+        }
+    }
+}
+
